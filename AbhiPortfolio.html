@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhishek Raj Pagadala - My Tech Journey</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #ece9e6, #ffffff);
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: #fff;
+      text-align: center;
+      padding: 4rem 1rem 5rem 1rem; 
+      background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      overflow: visible; 
+    }
+    header::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(30, 60, 114, 0.4); 
+      z-index: 0;
+    }
+    header h1, header p {
+      position: relative;
+      z-index: 1;
+      margin: 0;
+      font-weight: 400;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7); 
+      color: #fff; 
+    }
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.3rem;
+      font-weight: 400;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: -5rem auto 2rem auto;
+      background: #fff;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      z-index: 1;
+      position: relative;
+    }
+    h2 {
+      color: #1a237e;
+      border-bottom: 2px solid #e3f2fd;
+      padding-bottom: 0.3rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: 700;
+    }
+    .icon {
+      width: 24px;
+      height: 24px;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: #1a237e;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 1rem;
+      background-color: #3949ab;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #303f9f;
+    }
+    .section-block {
+      margin-top: 2rem;
+      padding: 1rem;
+      border-left: 5px solid #1a237e;
+      background-color: #fafafa;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+    .section-block:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    .image-banner {
+      width: 100%;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+      margin: 2rem 0;
+      position: relative;
+    }
+
+    .image-banner.cloud-data {
+      background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #1a237e;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: #c5cae9;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Abhishek Raj Pagadala</h1>
+    <p>DevOps Engineer | Cloud Specialist | Data Analytics Enthusiast</p>
+  </header>
+
+  <section>
+
+    <div class="image-banner cloud-data"></div>
+
+    <div class="section-block">
+      <h2>
+        <img class="icon" src="https://cdn-icons-png.flaticon.com/512/1250/1250615.png" alt="Rocket Icon" />
+        🚀 From Cloud to Code: My Journey
+      </h2>
+      <p><strong>Abhishek Raj Pagadala</strong> — DevOps Engineer with 4+ years in cloud infrastructure, automation, and tooling. Currently pursuing MSc in Data Analytics in Berlin to fuse DevOps with data intelligence.</p>
+    </div>
+
+    <div class="section-block">
+      <h2>💼 Professional Milestones</h2>
+      <ul>
+        <li><strong>Enstoa:</strong> Led full-stack cloud ops, developed Azure dashboards, automated VM provisioning and implemented monitoring systems.</li>
+        <li><strong>TCS (Novartis & Stellantis):</strong> Designed secure Azure infrastructure, managed AKS clusters, automated with Terraform, and built CI/CD pipelines.</li>
+        <li><strong>Genex:</strong> Developed dynamic web applications using Django, Bootstrap, and JavaScript frameworks.</li>
+      </ul>
+    </div>
+
+    <div class="section-block">
+      <h2>🧠 Technical Skills</h2>
+      <ul>
+        <li><strong>Programming:</strong> Python, Java, C, Shell, PowerShell, SQL</li>
+        <li><strong>Web Development:</strong> HTML5, CSS3, JavaScript, Django, Bootstrap</li>
+        <li><strong>Cloud & DevOps:</strong> Azure, OCI, Azure DevOps, Terraform, Kubernetes, Docker, ARM templates</li>
+        <li><strong>Monitoring & Analytics:</strong> Azure Monitor, Power BI, Azure Workbooks, Spark</li>
+        <li><strong>Databases:</strong> SQL Server, PostgreSQL, MongoDB, CosmosDB</li>
+        <li><strong>Tools:</strong> Git, Anaconda, Jupyter Notebooks, Hadoop</li>
+      </ul>
+    </div>
+
+    <div class="section-block">
+      <h2>🎓 Education</h2>
+      <p><strong>MSc Data Analytics</strong> – Berlin School of Business and Innovation<br /><strong>B.Tech Computer Science</strong> – JNTU Hyderabad</p>
+    </div>
+
+    <div class="section-block">
+      <h2>
+        <img class="icon" src="https://cdn-icons-png.flaticon.com/512/1057/1057243.png" alt="Trophy Icon" />
+        🏆 Highlights
+      </h2>
+      <ul>
+        <li>🏅 1st Place – Tech Fest Web Dev</li>
+        <li>🥇 Winner – Get...Set...Azure Competition</li>
+        <li>🏏 National & State Level Cricket Player</li>
+        <li>🎖️ AZ-900 & AZ-104 Microsoft Certified</li>
+      </ul>
+    </div>
+
+    <div class="section-block">
+      <h2>📬 Get in Touch</h2>
+      <p>Email: <a href="mailto:pagadalaabhishek60@gmail.com">pagadalaabhishek60@gmail.com</a><br />Location: Berlin, Germany</p>
+      <a class="button" href="mailto:pagadalaabhishek60@gmail.com">Let's Collaborate</a>
+    </div>
+  </section>
+
+<footer>
+  &copy; 2025 Abhishek Raj Pagadala | LinkedIn: <a href="https://www.linkedin.com/in/abhishek-raj-pagadala-57b388194/" target="_blank" rel="noopener noreferrer">linkedin.com/in/abhishek-raj-pagadala-57b388194</a>
+</footer>
+</body>
+</html>
